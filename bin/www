@@ -5,14 +5,22 @@
  */
 
 var app = require('../app');
+<<<<<<< HEAD
 var debug = require('debug')('expressTester:server');
+=======
+var debug = require('debug')('init:server');
+>>>>>>> e90b589c4663cc6823fc1f509bf8a11629fc5bdd
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
+<<<<<<< HEAD
 var port = normalizePort(process.env.PORT || '3000');
+=======
+var port = normalizePort(process.env.PORT || '3002');
+>>>>>>> e90b589c4663cc6823fc1f509bf8a11629fc5bdd
 app.set('port', port);
 
 /**

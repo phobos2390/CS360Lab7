@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "expressTester",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www 3001"
+=======
+  "name": "init",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+>>>>>>> e90b589c4663cc6823fc1f509bf8a11629fc5bdd
   },
   "dependencies": {
     "body-parser": "~1.13.2",

@@ -1,0 +1,11 @@
+
+> expressTester@0.0.0 start /opt/bitnami/apache2/htdocs/CS360/expressTester
+> node ./bin/www
+
+[0mGET /test1.html [32m200 [0m8.116 ms - 328[0m
+[0mGET /folderWithIndex [36m303 [0m2.466 ms - 65[0m
+[0mGET /folderWithIndex/ [32m200 [0m2.297 ms - 351[0m
+[0mGET /test2 [33m404 [0m353.477 ms - 1285[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.547 ms - 111[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.717 ms - 111[0m
+[0mGET /test2.txt [32m200 [0m1.269 ms - 83[0m
